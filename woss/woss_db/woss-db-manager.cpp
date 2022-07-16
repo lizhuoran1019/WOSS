@@ -230,6 +230,7 @@ Sediment* WossDbManager::getSediment( const CoordZ& tx_coord, const CoordZVector
       sedim_map.clear();
       
       if (debug) ::std::cout << "WossDbManager::getSediment() after delete it->second.size() = " << it->second.size() << ::std::endl;
+      break;
       
     }
     return ptr;
